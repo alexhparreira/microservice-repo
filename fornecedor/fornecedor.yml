@@ -2,10 +2,11 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/fornecedor
     username: root
-    password: kadima01
-    
+    password: kadima01 
   jpa:
     properties:
      hibernate:  
-      ddl-auto: updatessss
+      ddl-auto: update
       dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      
+      
